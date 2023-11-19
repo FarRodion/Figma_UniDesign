@@ -36,6 +36,15 @@ header {
     padding: 59px;
 }
 
+h1 {
+    color: #220BE8;
+    font-family: "Poppins Bold";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 17.28px;
+}
 
 h2 {
     color: #2000E7;
@@ -185,3 +194,123 @@ h2.LetterSpace17 {
     margin-left: 77px;
     margin-top: 26px;
 }
+
+.ThirdSection {
+
+    width: 1440px;
+    height: 910px;
+    margin-bottom: 272px;
+    background: rgba(255, 214, 150, 0.20);
+}
+
+.MyProjects {
+    padding-top: 35px;
+    letter-spacing: 9.6px;
+}
+.TextCentr {
+    text-align: center;
+}
+
+.PrgPhoto {
+    margin-left: 108px;
+    margin-right: 191px;
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.PrgPhoto a {
+   
+    padding-top: 46px;
+    padding-right: 186px;
+}
+
+.IndentHorizontal {
+    padding-right: 24px;
+}
+
+.IndentVertical {
+    padding-top: 20px;
+}
+
+.FourthSection  {
+    width: 1450px;
+    height: 1316px;
+    margin-bottom: 208px;
+    background: rgba(67, 186, 253, 0.06);
+}
+
+.ContactMe {
+    padding-top: 67px;
+}
+
+.SectionToInput {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 159px;    
+}
+
+.InputPart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 81px;
+    margin-left: 40px;
+}
+
+input[type = email], 
+input[type = password] {
+    width: 600px;
+    height: 94px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: "Poppins Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 55px;
+}
+
+textarea {
+    width: 600px;
+    height: 265px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: "Poppins Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 48px;
+}
+
+input[type=button] {
+    border: none;
+    cursor: pointer;
+    width: 327px;
+    height: 94px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: "Poppins Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 40px;
+}
+
+.ContactMePicture {
+    position: relative;
+    margin-top: -300px;
+    
+}
+
