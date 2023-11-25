@@ -64,12 +64,10 @@ h2 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
 }
 
 h2.MyProfession {
     width: 447px;
-    
 }
 
 h3 {
@@ -83,7 +81,6 @@ h3 {
 
 .HeaderMenu ul li {
     display:inline-block;
-    
 }
 
 .HeaderMenuText {
@@ -93,12 +90,10 @@ h3 {
     font-weight: 400;
     margin: 0 40px;
     line-height: normal;
-    
 }
 
 .logo {
     text-align: center;
-   
 }
 
 .FirstSection {
@@ -106,7 +101,6 @@ h3 {
     height: 765px;
     justify-content: space-between;
     margin-bottom: 162px;
-    
 }
 
 .portfolio {
@@ -132,10 +126,6 @@ h3 {
     width: 616px;
     height: 92px;
     display: flex;
-   
- 
-
-  
 }
 
 .BottomGeneral{
@@ -147,30 +137,25 @@ h3 {
     margin-top: 100px;
     margin-right: 55px;
     padding-top: 25px;
-           
     font-family: "Poppins Regular";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;    
     line-height: normal;
-     border-radius: 10px;
+    border-radius: 10px;
 }
 
 .BottomBlue {
-
     background: #2000E7;
     box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
     color: #FFF;
-
 }
 
 .BottomWhite {
-    
     border: 2px solid #2000E7;
     background: rgba(32, 0, 231, 0.04);
     box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
     color: #2000E7;
-
 }
 
 .SecondSection {
@@ -198,7 +183,6 @@ h2.LetterSpace17 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-   
 }
 
 .BottomStileSecond  {
@@ -218,6 +202,7 @@ h2.LetterSpace17 {
     padding-top: 35px;
     letter-spacing: 9.6px;
 }
+
 .TextCentr {
     text-align: center;
 }
@@ -228,11 +213,9 @@ h2.LetterSpace17 {
     width: 1440px;
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .PrgPhoto a {
-   
     padding-top: 46px;
     padding-right: 186px;
 }
@@ -323,14 +306,12 @@ input[type=button] {
 .ContactMePicture {
     position: relative;
     margin-top: -300px;
-    
 }
 
 footer {
     width: 1440px;
     height: 809px;
     background-color: rgba(255, 214, 150, 0.20);
-    
 }
 
 .footer {
@@ -348,12 +329,10 @@ footer {
 .footerlogo {
     margin-top: 132px;
     margin-left: 73px;
-    
 }
 
 .footerInput {
     margin-top: 50px;
-    
 }
 
 input.footerEmail {
@@ -386,25 +365,21 @@ input.footerSubscribe {
     position: relative;
     left: -100px;;
     padding: 0;
-
 }
 
 .column2 {
     margin-top: 137px;
     width: 230px;
-    
 }
 
 .column3 {
     margin-top: 137px;
     width: 300px;
-    
 }
 
 .column4 {
     margin-top: 137px;
     width: 290px;
-    
 }
 
 
@@ -418,11 +393,9 @@ input.footerSubscribe {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
 
 .footerTextHome {
-    
     height: 366px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -436,11 +409,9 @@ input.footerSubscribe {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
 }
 
 .footerTextHowItWork {
-    
     height: 366px;    
     padding-top: 20px;
     padding-bottom: 20px;
@@ -454,11 +425,9 @@ input.footerSubscribe {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
 }
 
 .footerTextContact {
-    
     height: 250px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -472,7 +441,6 @@ input.footerSubscribe {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
 }
 
 [class^= "footerText"] li, 
@@ -485,7 +453,6 @@ input.footerSubscribe {
     width: 1334px;
     height: 3px;
     margin-left: 59px;
-    
     background: #000;
 }
 
@@ -498,7 +465,6 @@ input.footerSubscribe {
 }
 
 .copyrights {
-
     color: #000;
     font-family: "Jost Regular";
     font-size: 32px;
