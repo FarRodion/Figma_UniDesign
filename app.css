@@ -7,6 +7,17 @@
     font-family: "Poppins Bold";
     src: url("./fonts/Poppins-Bold.ttf");
     }
+
+@font-face {
+    font-family: "Jost Regular";
+    src: url("./fonts/Jost-Regular.ttf");
+    }
+
+@font-face {
+    font-family: "Jost Bold";
+    src: url("./fonts/Jost-Bold.ttf");
+    }
+        
    
  * {
     margin: 0;
@@ -289,6 +300,7 @@ textarea {
     font-weight: 400;
     line-height: normal;
     padding: 0 48px;
+    resize: none;
 }
 
 input[type=button] {
@@ -313,4 +325,200 @@ input[type=button] {
     margin-top: -300px;
     
 }
+
+footer {
+    width: 1440px;
+    height: 809px;
+    background-color: rgba(255, 214, 150, 0.20);
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.column1 {
+    width: 650px;
+    flex-shrink: 0;
+}
+
+.footerlogo {
+    margin-top: 132px;
+    margin-left: 73px;
+    
+}
+
+.footerInput {
+    margin-top: 50px;
+    
+}
+
+input.footerEmail {
+    margin-left: 26px;
+    width: 323px;
+    height: 97px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #000;
+    color: #FFF;
+    font-family: "Jost Bold";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+input.footerSubscribe {
+    width: 178px;
+    height: 97px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F965FC;
+    color: #FFF;
+    font-family: "Jost Bold";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    left: -100px;;
+    padding: 0;
+
+}
+
+.column2 {
+    margin-top: 137px;
+    width: 230px;
+    
+}
+
+.column3 {
+    margin-top: 137px;
+    width: 300px;
+    
+}
+
+.column4 {
+    margin-top: 137px;
+    width: 290px;
+    
+}
+
+
+.column2 h3,
+.column3 h3,
+.column4 h3{
+   padding-bottom: 20px;
+    color: #000;
+    font-family: "Jost Bold";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.footerTextHome {
+    
+    height: 366px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Jost Regular";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.footerTextHowItWork {
+    
+    height: 366px;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Jost Regular";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.footerTextContact {
+    
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Jost Regular";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+[class^= "footerText"] li, 
+[class^= "footerText"] a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footerLine {
+    width: 1334px;
+    height: 3px;
+    margin-left: 59px;
+    
+    background: #000;
+}
+
+.CopyrightsSection {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 46px;
+}
+
+.copyrights {
+
+    color: #000;
+    font-family: "Jost Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.SocialMedia {
+    margin-top: 10px;
+    width: 400px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.Youtube {
+    position: relative;
+    top: 20px;
+}
+
 

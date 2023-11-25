@@ -13,16 +13,16 @@
         </div>
         <nav class = "HeaderMenu">
             <ul>
-                <li class = HeaderMenuText> <a href="#"> About Me </a> </li> 
-                <li class = HeaderMenuText> <a href="#"> Projects </a> </li>
-                <li class = HeaderMenuText> <a href="#"> Contacts </a> </li>
-                <li class = HeaderMenuText> <a href="#"> Hire Me </a> </li>
+                <li class ="HeaderMenuText"> <a href="#AboutMe"> About Me </a> </li> 
+                <li class ="HeaderMenuText"> <a href="#MyProject"> Projects </a> </li>
+                <li class ="HeaderMenuText"> <a href="#Contact"> Contacts </a> </li>
+                <li class ="HeaderMenuText"> <a href="#HireMe"> Hire Me </a> </li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <div class="FirstSection">
+            <div id="HireMe" class="FirstSection">
                 <div class="portfolio">
                     <h3>Welcome To My PortFolio</h3>
                     <h2 class="MyProfession">Hi , I am Steven UI/UX <span class = "orange"> Desginer </span> </h2>
@@ -40,7 +40,7 @@
         </section>
 
         <section>
-            <div class=" SecondSection">
+            <div id="AboutMe" class=" SecondSection">
                 <div class = "AboutMe">
                     <h2 class="LetterSpace17"> About Me </h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -58,7 +58,7 @@
         </section>
 
         <section>
-            <div class = "ThirdSection">
+            <div id="MyProject" class = "ThirdSection">
                 <h2 class = "MyProjects TextCentr"> My Projects </h2>
                 <p class="TextCentr">Lorem Ipsum is simply dummy text of the printing</p>
                 <div class="PrgPhoto">
@@ -75,33 +75,74 @@
             </div>
          </section>
 
-         <section class="FourthSection">
+         <section id="Contact" class="FourthSection">
             <div>
-                <h1 class = "ContactMe TextCentr">Contact Me</h1>
-                <p class = "TextCentr">Lorem Ipsum is simply dummy text of the printing</p>
+                <h1 class ="ContactMe TextCentr">Contact Me</h1>
+                <p class ="TextCentr">Lorem Ipsum is simply dummy text of the printing</p>
             </div>
 
             <div class = "SectionToInput">
                 <div>
                     <form action="#">
-                        <div class = "InputPart"> <input type = "email" placeholder="Email"/> </div>
-                        <div class="InputPart"> <input type = "password" placeholder="Password"/> </div>
-                        <div class="InputPart"> <textarea name="Message" id="message" cols="30" rows="10">Message</textarea> </div>
+                        <div class ="InputPart"> <input type = "email" placeholder="Email"> </div>
+                        <div class="InputPart"> <input type = "password" placeholder="Password"> </div>
+                        <div class="InputPart"> <textarea name="Message" id="message" cols="30" rows="10" placeholder="Message"></textarea> </div>
                         <div class="InputPart"> <input type="button" value="Contact"> </div>
                     </form>
                 </div>
-
                 <div class = "ContactMePicture">
                     <img src="/images/MyPrj/ContactMe.png" alt="Contact Me Picture">
-
                 </div>
-  
-            </div>
+              </div>
          </section>
     </main>
     <footer>
-
+        <div class = "footer">
+            <div class="column1">
+                <a href="#"> <img class="footerlogo" src="/images/logo.png" alt="logo"> </a>
+                <div class="footerInput">
+                    <form action="#">
+                        <input class="footerEmail" type ="email"  placeholder="Email">
+                        <input class="footerSubscribe" type="button" value="Subscribe">              
+                    </form>
+                 </div>
+            </div>
+            <div class="column2">
+                <h3>Platform</h3>
+                <ul class="footerTextHome">
+                    <li><a href="#">Home </a></li>
+                    <li><a href="#">Overview </a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="column3">
+                <h3>Help</h3>
+                <ul class="footerTextHowItWork">
+                    <li><a href="#">How It Works?</a></li>
+                    <li><a href="#">Pay?</a></li>
+                    <li><a href="#">Question?</a></li>
+                    <li><a href="#">Contact?</a></li>
+                </ul>
+            </div>
+            <div class="column4">
+                <h3>Contact</h3>
+                <ul class="footerTextContact">
+                    <li><a href="#">(+000) 1234-6789</a></li>
+                    <li><a href="#">116 Archlor Road Broadlaband, NewYork (NYC) 1205</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerLine"></div>
+        <div class="CopyrightsSection">
+            <div class="copyrights">CopyRighted 2020-2023 &nbsp; &nbsp;  All Rights Reserved.</div>
+            <div class="SocialMedia">
+                <a href="#"><img class="Youtube" src="/images/Social/Youtube.png" alt="Youtube"></a>
+                <a href="#"><img src="/images/Social/Logo2.png" alt="Instagram"></a>
+                <a href="#"><img src="/images/Social/Capa2.png" alt="Facebook"></a>
+                <a href="#"><img src="/images/Social/Logo11.png" alt="LinkedIn"></a>
+            </div>
+        </div>
     </footer>
- 
-</body>
+ </body>
 </html>
